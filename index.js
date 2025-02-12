@@ -5,13 +5,13 @@ let user = {}
 // let currBalance = 0;
 document.write("<div id=root></div>");
 function toggle(color){
-    if(color=='dark'){
+    if(color=="dark"){
         document.body.style.background="black";
-        document.body.style.background="white";
+        document.body.style.color="white";
     }
     else{
         document.body.style.background="white";
-        document.body.style.background="black";
+        document.body.style.color="black";
     }
 }
 function showUser() {

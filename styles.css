@@ -18,7 +18,7 @@ body {
 }
 
 button {
-    background-color: #42bf29;
+    background-color: #70d45c;
     color:c white
     border: none;
     padding: 10px 20px;
@@ -28,21 +28,18 @@ button {
 }
 
 button:hover {
-    background-color: #e79805;
+    background-color: #6ec708;
 }
 
-input[type="text"], input[type="password"], input[type="date"], input[type="number"] {
-    width: 100%;
+input{
+    width: 200px;
     padding: 10px;
     margin: 10px 10px;
     border: 2px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
-}
-
-input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="number"]:focus {
     outline: none;
-    border-color: #ebb970;
+    border-color: #f8daad;
 }
 
 select {
@@ -52,8 +49,6 @@ select {
     border-radius: 5px;
     font-size: 16px;
 }
-
-/* Centering content */
 #root {
     max-width: 300px;
     margin: 0 auto;
